@@ -1,4 +1,4 @@
-<!--THIS SITE WAS DEVELOPED BY VLADIMIR MAKSIMOV APPROVED TEST-->
+<!--THIS SITE WAS DEVELOPED BY VLADIMIR MAKSIMOV APPROVED UPD1-->
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -24,13 +24,20 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/stylesheet.css">
+
+    <link rel="preload" as="image" href="img/slider/webp/01@1x.webp">
+    <link rel="preload" as="image" href="img/slider/webp/02@1x.webp">
+    <link rel="preload" as="image" href="img/slider/webp/03@1x.webp">
+    <link rel="preload" media="screen and (min-device-pixel-ratio: 2)" as="image" href="img/slider/webp/01@2x.webp">
+    <link rel="preload" media="screen and (min-device-pixel-ratio: 2)" as="image" href="img/slider/webp/02@2x.webp">
+    <link rel="preload" media="screen and (min-device-pixel-ratio: 2)" as="image" href="img/slider/webp/03@2x.webp">
     
 </head>
 <body>
     <nav class="header">
         <div class="container header__container">
             <div class="header__logo logo">
-                <a href="#" style="display: inline-block; width: 225px; height: 75px;" class="logo__link" aria-label="Главная страница">
+                <a href="#" style="display: inline-block;" class="logo__link" aria-label="Главная страница">
                     <picture>
                         <source srcset="img/Logo.png 1x, img/Logo@2x.png 2x">
                             <img src="img/Logo.png" alt="Lagoona.Логотип" class="logo__img" style="width:225px; height:72px;"> 
@@ -354,6 +361,6 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.5.0/dist/lazyload.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/script.min.js"></script>
 </body>
 </html>
